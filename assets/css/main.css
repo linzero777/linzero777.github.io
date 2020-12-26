@@ -1044,7 +1044,8 @@ Hero Area
 */
 
 .hero-area {
-  background: var(--cl-red);
+  background: black;
+  
 }
 
 .single-hero {
