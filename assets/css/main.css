@@ -1934,6 +1934,7 @@ Footer Area
   position: relative;
   overflow: hidden;
   padding-bottom: 30px;
+  padding-top: 40px;
 }
 
 .footer-area:before {
@@ -1948,7 +1949,7 @@ Footer Area
 
 .footer-content {
   color: #fff;
-  margin-bottom: 60px;
+  
 }
 .footer-content a img {
   margin-bottom: 20px;
@@ -2419,6 +2420,31 @@ About Area
 	}
 }
 
+
+.video-js {
+	   z-index: 100;
+	       position: absolute;
+	       top: 50%;
+	       left: 50%;
+	       min-width: 100%;
+	       min-height: 100%;
+	       object-fit: fill;/*这里是关键*/
+	       width: auto;
+	       height: auto;
+	       -ms-transform: translateX(-50%) translateY(-50%);
+	       -webkit-transform: translateX(-50%) translateY(-50%);
+	       transform: translateX(-50%) translateY(-50%);
+	       
+	}
+	.video-js .vjs-big-play-button {
+	    top: 50%;
+	    left: 50%;
+	    -webkit-transform: translate(-50%,-50%);
+	    -moz-transform: translate(-50%,-50%);
+	    -ms-transform: translate(-50%,-50%);
+	    -o-transform: translate(-50%,-50%);
+	    transform: translate(-50%,-50%);
+	}
 
 /*
 
